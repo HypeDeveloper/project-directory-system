@@ -1,0 +1,65 @@
+
+.wrapSign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    zoom: 80%;
+}
+.wrapperSign{
+    width: 100%;
+    padding: 0 20vw;
+}
+
+.quickInput{
+    margin: 0 3px;
+}
+.banner{
+    padding-bottom: 40px;
+}
+.quickInput input{
+    width: 100%;
+    font-size: 1.3rem;
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.inputPlaceholder{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.formwrap{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bttn-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+@media screen and (min-width: 800px) {
+    .bttn-wrap{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .wrapSign{
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+    zoom: 80%;
+}
+.wrapperSign{
+    width: 450px;
+    padding: 0 40px;
+}
+}

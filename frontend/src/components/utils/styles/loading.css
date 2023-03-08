@@ -1,0 +1,43 @@
+.loadHero{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.loadwrap{
+    width: 100px;
+    height: 6px;
+    position: relative;
+}
+
+.loadBar{
+    position: absolute;
+    animation: loading 1.3s 0s infinite ease-in-out;
+    left: 0;
+    height: 100%;
+    transition: 2s;
+    width: 30px;
+}
+
+@keyframes loading {
+    0%{
+        left: 0;
+        background: rgb(26, 133, 233);
+    }
+    
+    50%{
+        left: 100%;
+        background: rgb(26, 233, 147);
+    }
+    100%{
+        left: 0%;
+        background: rgb(26, 133, 233);
+    }
+}
